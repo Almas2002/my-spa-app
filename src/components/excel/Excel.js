@@ -5,7 +5,7 @@ export class Excel {
         this.$el = $(selector)
         this.compnents = options.components || []
     }
-
+    //1
     getRoot() {
         const $root = $.create('div','excel')
 
